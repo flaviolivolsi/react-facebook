@@ -38,7 +38,7 @@
   },
   "scripts": {
     "prepublish": "npm run build",
-    "postinstall": "npm run build",
+    "postinstall": "npm install && npm run build",
     "test": "jest ./src/",
     "test:coverage": "jest --coverage ./src/",
     "test:watch": "jest --watch ./src/",
